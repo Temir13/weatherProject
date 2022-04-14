@@ -1,8 +1,7 @@
-import './nav.css'
+import './Nav.css'
 
 const nav = () =>{
     return (
-        
         <div className='nav'>
          
         </div> 
