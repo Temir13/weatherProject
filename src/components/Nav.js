@@ -1,8 +1,9 @@
-import './Nav.css'
+import classes from './Nav.module.css'
 
 const nav = () =>{
     return (
-        <div className='nav'>
+        <div className={classes.nav}>
+            <div className={classes.container}>nav Container</div>
          
         </div> 
 

@@ -1,8 +1,9 @@
-import './Body.css'
+import classes from './Body.module.css'
 
 const Body = () =>{
     return (
-        <div className='body'>
+        <div className={classes.body}>
+            <div className={classes.container}>body Container</div>
            
         </div>
     );
