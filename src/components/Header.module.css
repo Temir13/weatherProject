@@ -7,9 +7,59 @@
 .container{
     position: fixed;
     width: 100%;
+    height: 75px;   
+    background-color: #fdf5edc4;
+}
+
+.mainContainer{
+    position: relative;
+    width: 1000px;
     height: 75px;
-    background-color: rgb(21, 124, 0);
-    color: aliceblue;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    background-color: #fdf9edd8;
+}
+
+.waetherLogo{
+    position: relative;
+    width: 120px;
+    height: 75px;
+    margin-left: 25px;
+    background-image: url('https://pngimg.com/uploads/anime_girl/anime_girl_PNG84.png');
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+.aboutContainer{
+    position: relative;
+    width: 660px;
+    height: 75px;
+    margin-left: 25px;
+    font-size: 45px;
+    font-weight: 900;
     text-align: center;
+    
+}
+
+.aboutText{
+    position: absolute;
+    width: 620px;
+    height: 55px;
+    color: rgb(0, 0, 0);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iituLogo{
+    position: relative;
+    width: 120px;
+    height: 75px;
+    margin-left: 25px;
+    background-image: url('https://admin.vipusknik.kz/storage/300/1493040988-logopng.png');
+    background-position: center;
+    background-size: cover;
 }
 

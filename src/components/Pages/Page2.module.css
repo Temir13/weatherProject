@@ -1,0 +1,20 @@
+.Page2{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    background-color: #fdf5edd7;;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background-color: rgb(253, 214, 204);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}

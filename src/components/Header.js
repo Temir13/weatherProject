@@ -4,7 +4,16 @@ const Header = () =>{
     return (
         
         <header className={classes.header}>
-            <div className={classes.container}>header Container</div>                              
+            <div className={classes.container}>
+                <div className={classes.mainContainer}>
+                    <div alt='weatherLogo' className={classes.waetherLogo}></div>
+                    <div className={classes.aboutContainer}>
+                        <div className={classes.aboutText}>. . . _ _ _ . . .  </div>
+                    </div>
+                    <div alt='iitu.logo' className={classes.iituLogo}></div>
+                </div>
+            </div> 
+
         </header> 
 
     );
