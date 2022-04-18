@@ -1,0 +1,13 @@
+.indicator{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    margin-bottom: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(64, 43, 226);
+}
+.value{
+    margin-bottom: 0;
+}

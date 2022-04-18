@@ -5,16 +5,16 @@ import locationIcon from './assets/location-pin.png';
 import styles from './CurrentDay.module.css';
 
 const CurrentDay = ({ weekday, date, location, temperature, weatherIcon, weatherDescription }) => (
-    <div className="d-flex">
+    <div className={styles.container}>
         <div className={styles.img}></div>
         <div className={styles.gradient}></div>
-        <div className={`${styles.cardInner} d-flex flex-column justify-content-between pt-3 pb-2 pl-2`}>
+        <div className={`${styles.cardInner}`}>
             <div>
-                <h2 className="font-weight-bold mb-1">{weekday}</h2>
+                <h2 className={styles.weekday}>{weekday}</h2>
                 <p className="mb-0">{date}</p>
-                <p className="d-flex align-items-baseline font-weight-lighter mb-1">
-                    <img width="10" height="15" src={locationIcon} className="mr-1" alt="location pin icon" />
-                    <span>{location}</span>
+                <p className={styles.icon}>
+                    <img src={locationIcon} className={styles.locationIcon} alt="location pin icon" />
+                    <span className={styles.location}>{location}</span>
                 </p>
             </div>
             <div>
