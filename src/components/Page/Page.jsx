@@ -21,7 +21,7 @@ const Page = () => {
         <Fragment>
             <HeaderBody />
             {!forecast && (
-                <div className={`${styles.box} position-relative`}>
+                <div className={`${styles.box} `}>
                     {/* Form */}
                     {!isLoading && <Form submitSearch={onSubmit} />}
                     {/* Error */}

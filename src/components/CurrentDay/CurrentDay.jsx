@@ -6,9 +6,8 @@ import styles from './CurrentDay.module.css';
 
 const CurrentDay = ({ weekday, date, location, temperature, weatherIcon, weatherDescription }) => (
     <div className={styles.container}>
-        <div className={styles.img}></div>
-        <div className={styles.gradient}></div>
         <div className={`${styles.cardInner}`}>
+        <div className={styles.img}></div>
             <div>
                 <h2 className={styles.weekday}>{weekday}</h2>
                 <p className="mb-0">{date}</p>

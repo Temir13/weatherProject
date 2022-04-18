@@ -4,7 +4,7 @@ import styles from './HeaderBody.module.css';
 
 const HeaderBody = () => (
     <h1 className={styles.heading}>
-        <span className={styles.light}></span> Weather
+        <span className={styles.light}></span>
     </h1>
 );
 
