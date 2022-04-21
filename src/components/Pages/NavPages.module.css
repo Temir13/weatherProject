@@ -1,0 +1,37 @@
+.about{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Page2{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Page3{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: rgb(44, 44, 44);
+}
+
+.container{
+    position: relative;
+    width: 700px;
+    height: 650px;
+    left: 50%;
+    top: 50%;
+    padding-top: 2px;
+    background-color: rgb(255, 241, 211);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 25px;
+}

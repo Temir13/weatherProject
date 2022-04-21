@@ -1,4 +1,4 @@
-import classes from './Page2.module.css'
+import classes from './NavPages.module.css'
 
 
 const Page2 = () =>{

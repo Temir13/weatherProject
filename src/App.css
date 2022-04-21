@@ -1,0 +1,15 @@
+*{
+    transition: 0.1s;
+}
+
+h2{
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+h3{
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+a{
+    font: italic small-caps bold 16px/2 cursive;
+}

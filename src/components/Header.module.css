@@ -1,45 +1,47 @@
 .header{
     position: sticky;
-    height: 75px;
+    height: 70px;
     z-index: 1;
 }
 
 .container{
     position: fixed;
     width: 100%;
-    height: 75px;   
-    background-color: #fdf5edc4;
+    height: 70px;   
+    background: linear-gradient(to right, #ffffff, #2ed0f8, #1a0881e0, rgb(2, 1, 90));
+
 }
 
 .mainContainer{
     position: relative;
     width: 1000px;
-    height: 75px;
+    height: 70px;
     left: 50%;
     transform: translate(-50%, 0);
     display: flex;
-    background-color: #fdf9edd8;
+
 }
 
 .waetherLogo{
     position: relative;
     width: 120px;
-    height: 75px;
+    height: 70px;
     margin-left: 25px;
-    background-image: url('https://pngimg.com/uploads/anime_girl/anime_girl_PNG84.png');
+    background-image: url('http://img10.reactor.cc/pics/post/Re-Zero-Kara-Hajimeru-Isekai-Seikatsu-Anime-Emilia-%28re-zero%29-Felt-%28re-zero%29-3729862.png');
     background-position: center;
-    background-size: 55%;
+    background-size: 70%;
     background-repeat: no-repeat;
 }
 
 .aboutContainer{
     position: relative;
     width: 660px;
-    height: 75px;
+    height: 70px;
     margin-left: 25px;
     font-size: 45px;
     font-weight: 900;
     text-align: center;
+
     
 }
 
@@ -47,19 +49,22 @@
     position: absolute;
     width: 620px;
     height: 55px;
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.904);
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 45%;
+    transform: translate(-50%, -50%);  
+    font: italic small-caps bold 30px/2 cursive;
+
 }
 
 .iituLogo{
     position: relative;
     width: 120px;
-    height: 75px;
+    height: 70px;
     margin-left: 25px;
     background-image: url('https://admin.vipusknik.kz/storage/300/1493040988-logopng.png');
     background-position: center;
-    background-size: cover;
+    background-size: 85%;
+    background-repeat: no-repeat;
 }
 
