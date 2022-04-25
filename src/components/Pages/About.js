@@ -6,9 +6,9 @@ import ReactDOM from 'react-dom';
 function Message(props)
 {
     if (props.isLoggedIn)
-        return <h1>Welcome User</h1>;
+        return <h1>Хорошего дня!</h1>;
     else
-        return <h1>Please Login</h1>;
+        return <h1>Нажми пожалуйся</h1>;
 }
  
 // Login Component
@@ -16,7 +16,7 @@ function Login(props)
 {
    return(
            <button onClick = {props.clickFunc}>
-               Login
+               Сюда
            </button>
        );
 }
@@ -26,7 +26,7 @@ function Logout(props)
 {
     return(
            <button onClick = {props.clickFunc}>
-               Logout
+               пока
            </button>
        );
 }
