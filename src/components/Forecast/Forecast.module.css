@@ -12,12 +12,17 @@
     width: 85%;
     max-width: 675px;
     min-height: 300px;
-    
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -10%);
 }
 .items{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
