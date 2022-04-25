@@ -6,7 +6,7 @@ import getCurrentDayDetailedForecast from '../helpers/getCurrentDayDetailedForec
 import getUpcomingDaysForecast from '../helpers/getUpcomingDaysForecast';
 
 const BASE_URL = 'https://www.metaweather.com/api/location';
-const CROSS_DOMAIN = 'https://weather-project3.herokuapp.com/';
+const CROSS_DOMAIN = 'https://cors-anywhere.herokuapp.com';
 const REQUEST_URL = `${CROSS_DOMAIN}/${BASE_URL}`;
 
 const useForecast = () => {
