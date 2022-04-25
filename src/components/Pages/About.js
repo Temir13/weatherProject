@@ -8,7 +8,7 @@ function Message(props)
     if (props.isLoggedIn)
         return <h1>Хорошего дня!</h1>;
     else
-        return <h1>Нажми пожалуйся</h1>;
+        return <h1>Нажми пожалуйста</h1>;
 }
  
 // Login Component
