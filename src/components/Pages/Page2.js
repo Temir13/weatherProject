@@ -2,10 +2,6 @@ import { render } from '@testing-library/react';
 import { Component } from 'react';
 import classes from './NavPages.module.css'
 export default class Page2 extends Component{
-    state = {
-    
-    }
-
     render(){
         const name = 'Юность'
         const content = 'Звук поставим на всю и соседи не спят'
