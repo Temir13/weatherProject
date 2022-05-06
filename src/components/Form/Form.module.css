@@ -1,3 +1,7 @@
+.form{
+    
+
+}
 .input {
     border-radius: var(--main-border-radius);
     margin-bottom: 1rem;
@@ -5,14 +9,14 @@
     border: 2px solid rgb(158, 199, 244);
     color: #002034;
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .button {
     border: none;
-    border-radius: var(--main-border-radius);
     padding: 0.65rem;
-    background-image: var(--gradient);
-    color: var(--main-text-color);
     font-weight: 700;
     box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -20,6 +24,7 @@
     width: 100%;
     height: 38px;
     background-color: #0077c0;
+    border-radius: 5px;
 }
 
 .button:hover {

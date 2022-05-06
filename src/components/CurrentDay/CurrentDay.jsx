@@ -10,7 +10,7 @@ const CurrentDay = ({ weekday, date, location, temperature, weatherIcon, weather
         <div className={styles.img}></div>
             <div>
                 <h2 className={styles.weekday}>{weekday}</h2>
-                <p className="mb-0">{date}</p>
+                <p className={styles.date}>{date}</p>
                 <p className={styles.icon}>
                     <img src={locationIcon} className={styles.locationIcon} alt="location pin icon" />
                     <span className={styles.location}>{location}</span>
@@ -18,10 +18,10 @@ const CurrentDay = ({ weekday, date, location, temperature, weatherIcon, weather
             </div>
             <div>
                 <img width="45" src={weatherIcon} alt="" />
-                <h2 className="font-weight-bold mb-1">
+                <h2 className={styles.temp}>
                     <span>{temperature}</span>°C
                 </h2>
-                <h5 className="font-weight-lighter">{weatherDescription}</h5>
+                <h5 className={styles.weather}>{weatherDescription}</h5>
             </div>
         </div>
     </div>
