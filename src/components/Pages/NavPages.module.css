@@ -13,7 +13,37 @@
     left: 50%;
     transform: translate(-50%, 0);
 }
-
+.news1{
+    position: relative;             
+   left: 50%;                        
+   transform: translate(-50%, 0);
+    height: 169px;
+    width: 300px;
+    background-image: url('./img/amber.jpg');
+    margin-bottom: 50px;
+}
+.news2{
+    position: relative;             
+   left: 50%;                        
+   transform: translate(-50%, 0);
+    height: 169px;
+    width: 300px;
+    background-image: url('./img/football.jpg');
+    margin-bottom: 50px;
+}
+.news3{
+    position: relative;             
+   left: 50%;                        
+   transform: translate(-50%, 0);
+    height: 169px;
+    width: 300px;
+    background-image: url('./img/war.jpg');
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 .Page3{
     position: relative;
     width: 1000px;
@@ -26,11 +56,11 @@
 .container{
     position: relative;
     width: 700px;
-    height: 650px;
+    height: 800px;
     left: 50%;
-    top: 50%;
+    top: 60%;
     padding-top: 2px;
-    background-color: rgb(255, 241, 211);
+    background-color: rgb(211, 234, 255);
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 25px;
