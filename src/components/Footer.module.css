@@ -1,7 +1,9 @@
 .footer {
+  position: relative;
     background: #222;
     color: #aaa;
     padding-top: 10px;
+    top: 200px;
     
   }
   

@@ -4,14 +4,35 @@
     transform: translate(-50%, 0);
 }
 
-.musicHead{
-    
+.Content{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 130px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 25px;
+    border-radius: 25px;
+    display: flex;
+
+}
+
+.BlogPhoto{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    transform: translate(25%, -50%);
+    border-radius: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
 .verse1{
     position: relative;
-    width: 500px;
-    left: 50%;
-    top: 10px;
+    width: 450px;
+    height: 90px;
+    left: 45%;
     transform: translate(-50%, 0);
 }

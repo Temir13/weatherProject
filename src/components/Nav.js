@@ -6,9 +6,9 @@ const nav = () =>{
         <nav className={classes.nav}>
             <div className={classes.container}>
                 <div className={classes.menuContainer}>
-                    <a href='/Home' className={classes.menu}>Weather</a>   
+                    <Link to='/Home' className={classes.menu}>Weather</Link>   
                     <Link to='/Page2' className={classes.menu}>News</Link>  
-                    <Link to='/Page3' className={classes.menu}>Props</Link>  
+                    <Link to='/Page3' className={classes.menu}>Blogs</Link>  
                     <Link to='/About' className={classes.menu}>About</Link>               
                 </div>
             </div>

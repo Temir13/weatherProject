@@ -50,7 +50,7 @@ a{
 .Page3{
     position: relative;
     width: 1000px;
-    height: 700px;
+    height: 750px;
     left: 50%;
     transform: translate(-50%, 0);
     color: rgb(44, 44, 44);
@@ -59,7 +59,7 @@ a{
 .container{
     position: relative;
     width: 700px;
-    height: 800px;
+    height: 850px;
     left: 50%;
     top: 60%;
     padding-top: 2px;
