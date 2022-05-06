@@ -5,17 +5,27 @@ import ReactDOM from 'react-dom';
 function Message(props)
 {
     if (props.isLoggedIn)
-        return <h1>Хорошего дня!</h1>;
+        return <div className={classes.text}><h1>Добрый день!</h1> <br></br>
+        <h3>Мы студенты университета МУИТ, факультет "Информационная безопасность", группа SIS-2001. <br></br>
+        Это наш групповой проект - Прогноз погоды. Но также мы решили добавить пару дополнительных страниц, чтобы было интереснее! Надеемся Вам понравится!</h3>
+        </div>;
     else
-        return <h1>Нажми пожалуйста</h1>;
+        return <div><br></br><br></br><h1>Над проектом трудились:  </h1><br></br> 
+           <h2> Лазарев Темир<br></br>
+            Исмагулова Дана<br></br>
+            Алходжа Еркебулан <br></br><br></br><br></br><br></br><br></br>
+        </h2>
+            <h3>Нажмите сюда для большей информации</h3>
+        
+        </div> ;
 }
  
 // Login Component
 function Login(props)
 {
    return(
-           <button onClick = {props.clickFunc}>
-               Сюда
+           <button className={classes.button} onClick = {props.clickFunc}>
+               сюда
            </button>
        );
 }
@@ -24,7 +34,7 @@ function Login(props)
 function Logout(props)
 {
     return(
-           <button onClick = {props.clickFunc}>
+           <button className={classes.button} onClick = {props.clickFunc}>
                пока
            </button>
        );
