@@ -4,17 +4,17 @@ import classes from './Footer.module.css'
 class Footer extends Component{
     render(){
     return (
-        <footer className={classes.footer}>
+        <footer className={classes.container}>
             <div className="container" >
     <div class="row">
       
-      <div className="col-lg-4 col-md-6">
+      <div class="col-lg-4-col-md-6">
         <h3>Everything that kills me, makes me feel alive</h3>
 
       </div>
       
       <div class="col-lg-4col-md-6">
-        <h3>ABOUT</h3>
+        <h3>ABOUT US</h3>
         <div class="media">
 
           <div class="media-body">
@@ -25,8 +25,8 @@ class Footer extends Component{
         
       </div>
       
-      <div className='last'>
-        <h3>Thanks for YOU</h3>
+      <div class='last'>
+        <h3>Thanks for Your Attention</h3>
       </div>
       
     </div>
