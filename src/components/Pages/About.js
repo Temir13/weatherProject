@@ -2,7 +2,6 @@ import classes from './NavPages.module.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
  
-// Message Component
 function Message(props)
 {
     if (props.isLoggedIn)
