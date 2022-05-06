@@ -6,8 +6,10 @@
     margin-bottom: 0;
     font-weight: bolder;
     text-transform: uppercase;
-    color: rgb(64, 43, 226);
+    color: rgb(19, 13, 63);
 }
 .value{
     margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(19, 13, 63);
 }
