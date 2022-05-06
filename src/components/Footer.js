@@ -1,43 +1,44 @@
-import { Component } from 'react';
-import classes from './Footer.module.css'
+import s from './Footer.module.css'
 
-class Footer extends Component{
-    render(){
+const Footer = () =>{
     return (
-        <footer className={classes.container}>
-            <div className="container" >
-    <div class="row">
-      
-      <div class="col-lg-4-col-md-6">
-        <h3>Everything that kills me, makes me feel alive</h3>
+        <footer className={s.footer}>
+            <div className={s.Block}>
+                <div className={s.Container}>
+                    <div className={s.SocialLinksUp}>
+                        <div className={s.IconsUp}>
+                            <a href="#" className={s.IconVK}></a>
+                            <a href="#" className={s.IconFB}></a>
+                            <a href="#" className={s.IconTW}></a>
+                            <a href="#" className={s.IconTG}></a>
+                            <a href="#" className={s.IconIN}></a>
+                            <a href="#" className={s.IconYT}></a>
+                        </div>
+                        <div className={s.BlogsUp}>
+                        </div>
+                    
+                </div>  
+                    <div className={s.LinksDownContainer}>
+                        <div className={s.LinksDownBlock}>
+                            <div className={s.DownYear}>© 2022 
+                                <a className={s.DownKPA}>  FUll TEAM  </a>
+                                <a className={s.Down18A}></a>
+                            </div>
+                            <div className={s.DownProject}>
+                                <a href='https://instagram.com/lazarev_temir?igshid=YmMyMTA2M2Y=' className={s.DownLazarus}> Темира Лазарева</a>
+                                <a href='https://instagram.com/_ism_dana_?igshid=YmMyMTA2M2Y=' className={s.DownLazarus}> Дана Исмагулова</a>
+                                <a href='https://instagram.com/plohorosho_akj?igshid=YmMyMTA2M2Y=' className={s.DownLazarus}> Еркебулан Алходжа</a>
+                                <a href='https://instagram.com/siuus.2001?igshid=YmMyMTA2M2Y=' className={s.DownLazarus}> GROUP   SIS-2001</a>
 
-      </div>
-      
-      <div class="col-lg-4col-md-6">
-        <h3>ABOUT US</h3>
-        <div class="media">
+                            </div>
 
-          <div class="media-body">
-            <h4 class="media-heading">+7 (707) 707 07 07</h4>
-            <p>weather@gmail.com</p>
-          </div>
-        </div>
-        
-      </div>
-      
-      <div class='last'>
-        <h3>Thanks for Your Attention</h3>
-      </div>
-      
-    </div>
-  </div>
-  <div class="copyright text-center">
-    Copyright &copy; 2022 <span>TDE</span>
-    </div>
-
+                        </div>
+                    </div>            
+                </div>
+            </div>
         </footer>
 
     );
-}}
+}
 
 export default Footer;
