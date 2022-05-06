@@ -20,6 +20,7 @@
     height: 169px;
     width: 300px;
     background-image: url('./img/amber.jpg');
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 .news2{
@@ -30,6 +31,7 @@
     width: 300px;
     background-image: url('./img/football.jpg');
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 .news3{
     position: relative;             
@@ -39,6 +41,7 @@
     width: 300px;
     background-image: url('./img/war.jpg');
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 a{
     text-decoration: none;
